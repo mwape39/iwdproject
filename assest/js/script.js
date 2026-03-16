@@ -1,12 +1,12 @@
 const products = [
     { id: 1, name: 'AirPods Pro Max', price: 250, stock: 8, img: 'assest/img/Airpod pro.png' },
-    { id: 2, name: 'Samsung Replacement Battery', price: 15, stock: 25, img: 'assest/img/batteries.jpg' },
-    { id: 3, name: 'JBL Waterproof Bluetooth Speaker', price: 85, stock: 6, img: 'assest/img/bluethooth.jpg' },
-    { id: 4, name: 'Premium Multi-Color Cables', price: 10, stock: 50, img: 'assest/img/cables.jpg' },
-    { id: 5, name: 'High-Speed USB Card Reader', price: 12, stock: 15, img: 'assest/img/card reader.jpg' },
+    { id: 2, name: 'Samsung Replacement Battery', price: 15, stock: 25, img: 'assest/img/batteries.png' },
+    { id: 3, name: 'JBL Waterproof Bluetooth Speaker', price: 85, stock: 6, img: 'assest/img/bluethooth.png' },
+    { id: 4, name: 'Premium Multi-Color Cables', price: 10, stock: 50, img: 'assest/img/cables.png' },
+    { id: 5, name: 'High-Speed USB Card Reader', price: 12, stock: 15, img: 'assest/img/card reader.png' },
     { id: 6, name: 'Samsung Galaxy Buds', price: 110, stock: 4, img: 'assest/img/Earpod.jpg' },
-    { id: 7, name: 'JBL Wireless Headphones (Blue)', price: 75, stock: 10, img: 'assest/img/headphones.jpg' },
-    { id: 8, name: 'Marshall Wired Headsets', price: 45, stock: 12, img: 'assest/img/headsets.jpg' }
+    { id: 7, name: 'JBL Wireless Headphones (Blue)', price: 75, stock: 10, img: 'assest/img/headphones.png' },
+    { id: 8, name: 'Marshall Wired Headsets', price: 45, stock: 12, img: 'assest/img/headsets.png' }
 ];
 
 let cart = [];
