@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGear | Burma Luwingu Branch</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="greeting-bar">Welcome to SmartGear!</div>
+
+<header>
+    <a href="#" class="logo">Smart<span>Gear</span></a>
+    <div style="display:flex; gap:15px; align-items:center;">
+        <button onclick="toggleCurrency()" id="currency-btn">
+            Switch to <span id="alt-curr">ZMW</span>
+        </button>
+        <div onclick="toggleCart()" style="cursor:pointer; font-weight:bold;">🛒 Bag (<span id="count">0</span>)</div>
+    </div>
+</header>
+
+<section class="store-ad">
+    <h2>Visit Us in Person! 📍</h2>
+    <p>Our flagship store is located at <strong>Burma, Luwingu</strong>.</p>
+    <p style="font-size: 0.9rem;">Experience premium smart accessories and on-site technical support.</p>
+</section>
+
+<div class="container">
+    <div class="grid" id="productGrid"></div>
+</div>
+
+<div id="sidebar">
+    <span class="close-cart" onclick="toggleCart()">&times;</span>
+    <h2>Your Bag</h2>
+    <div id="cartItems"></div>
+    <hr style="border-color: #333; margin: 20px 0;">
+    
+    <div class="total-container">
+        <span>Total Due</span>
+        <span id="cart-total">$0.00</span>
+    </div>
+
+    <div class="momo-section">
+        <p style="margin:0 0 10px 0; font-size: 0.8rem;">Pay via <span class="momo-badge">MTN / AIRTEL MoMo</span></p>
+        <input type="text" id="momo-phone" placeholder="Enter Phone (09x...)">
+    </div>
+
+    <button class="btn btn-primary" style="margin-top: 20px;" onclick="processPayment()">Checkout Now</button>
+</div>
+
+<footer>
+    &copy; 2026 Designed and Developed by <strong>Busiku Kapikanya</strong> | 
+    <a href="https://wa.me/260978319400" target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;">
+        WhatsApp: +260978319400 💬
+    </a>
+    <br>
+    <span style="color: var(--primary); font-weight: 500;">Burma, Luwingu District - Zambia</span>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
